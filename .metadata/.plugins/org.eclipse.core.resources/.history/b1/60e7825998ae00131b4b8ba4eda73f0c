@@ -1,0 +1,24 @@
+
+public class BackPropagation 
+{
+	public static void main(String args[])
+	{
+		int target = 1;
+		double Lrate = 0.1, input1 = 0.1, input2 = 0.7, output, tr;
+		double I1weightA = 0.1, I1weightB = 0.3, I2weightA = 0.5, I2weightB = 0.2, AweightC = 0.2, BweightC = 0.1;
+		double[][] weights = new double[][]{{0.1,0.3},{0.5,0.2},{0.2,0.1}};
+		boolean stop = false;
+		
+		//output = sigmoid((sigmoid(0.1*0.1+0.7*0.5))*0.2+(sigmoid(0.1*0.3+0.7*0.2))*0.1);
+		
+		tr = 2^2;
+		
+		System.out.printf("%f",tr);
+		
+	}
+
+	double sigmoid(double out) 
+	{
+		return 1/(1+(2.718281828)^(-out));
+	}
+}

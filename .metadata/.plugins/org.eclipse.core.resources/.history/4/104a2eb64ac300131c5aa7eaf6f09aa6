@@ -1,0 +1,81 @@
+
+public class ID3 
+{
+	
+	public static String[][] training_data = new String[][]{{"red","square","big","like"},{"blue","square","big","like"},{"red","round","small","dislike"},{"green","square","small","dislike"},{"red","round","big","like"},{"green","round","big","dislike"}};
+	public static int[][] training_set = new int[][]{{0,0,0,0},{1,0,0,0},{0,1,1,1},{2,0,1,1},{0,1,0,0},{2,1,0,1}};
+	public static int[][] finale;
+	
+	public static void main(String[] args)
+	{
+		String[] info_gain = new String[]{"InfoGain Like","InfoGain Size","InfoGain Shape","InfoGain Color"}; 
+		double[] infogain = new double[]{0,0,0,0};
+		int x = 0, nx = 0, y = 0, ny = 0, z = 0, nz = 0, total = 0, ntotal = 0, k = 1;
+		
+		infogain[0] = entropy(3,3);
+		System.out.printf("%s\t",info_gain[0]);
+		System.out.printf("%f\n\n",infogain[0]);
+		
+		for(int i = 0; i < 3 ; i++)
+		{
+			for(int j = 0; j < 6 ; j++)
+			{
+				if(training_set[j][i] == 0 && training_set[j][3] == 0)
+				{
+					x++;
+				}
+				if(training_set[j][i] == 1 && training_set[j][3] == 0)
+				{
+					y++;
+				}
+				if(training_set[j][i] == 2 && training_set[j][3] == 0)
+				{
+					z++;
+				}
+				if(training_set[j][i] == 0 && training_set[j][3] == 1)
+				{
+					nx++;
+				}
+				if(training_set[j][i] == 1 && training_set[j][3] == 1)
+				{
+					ny++;
+				}
+				if(training_set[j][i] == 2 && training_set[j][3] == 1)
+				{
+					nz++;
+				}
+			}
+			
+			total = x + y +z;
+			ntotal = nx + ny + nz;
+			
+			System.out.printf("\n\n x = %d nx = %d y = %d  ny = %d z = %d nz = %d\n\n",x,nx,y,ny,z,nz);
+			
+			infogain[k] = infogain[0] - ((x + nx) * entropy(x,nx)) / (total + ntotal) - ((y + ny) * entropy(y,ny)) / (total + ntotal) - ((z + nz) * entropy(z,nz)) / (total + ntotal);
+			
+			x=y=z=nx=ny=nz=0;
+			
+			System.out.printf("%s\t",info_gain[k]);
+			System.out.printf("%f\n",infogain[k]);
+			k++;
+		}
+		
+		double show = entropy(3,3)- ((4) * entropy(3,1)) / 6 - ((2) * entropy(0,2)) / 6;// - ((0) * entropy(0,0)) / 6;
+		
+		System.out.printf("\n\n final entropy  %f\t\n\n",show);
+		
+	}
+	
+	static double entropy(double p, double n)
+	{
+		double show = ( ( -( p/( p+n ) )* logbase2( p/(p+n) ) ) + ( -( n/( p+n )) * logbase2( n/(p+n) ) ) );
+		//System.out.printf("\n\n entropy  %f\t\n\n",show);
+		return ( ( -( p/( p+n ) )* logbase2( p/(p+n) ) ) + ( -( n/( p+n )) * logbase2( n/(p+n) ) ) );
+	}
+	
+	static double logbase2( double x)
+	{
+		return ((Math.log(x)/(Math.log(2))));
+	}
+	
+}

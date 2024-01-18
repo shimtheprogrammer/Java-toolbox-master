@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Program Files\Java\jdk1.8.0_05" version="1.8.0_05">
+<bootpath>
+<entry path="C:\Program Files\Java\jdk1.8.0_05\jre\lib\resources.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_05\jre\lib\rt.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_05\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_05\jre\lib\jsse.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_05\jre\lib\jce.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_05\jre\lib\charsets.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_05\jre\lib\jfr.jar"/>
+<entry path="C:\Program Files\Java\jdk1.8.0_05\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files\Java\jdk1.8.0_05\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files\Java\jdk1.8.0_05\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre" version="1.6.0_15">
+<bootpath>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\resources.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\rt.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\jsse.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\jce.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\charsets.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="D:\Downloads\Documents\Kips Books\Docs\eclipse" version="1.6.0_15">
+<bootpath>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\resources.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\rt.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\jsse.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\jce.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\charsets.jar"/>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="D:\Downloads\Documents\Kips Books\Docs\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\eclipse-SDK-4.2.2-win32\eclipse\jre" version="1.6.0_15">
+<bootpath>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\resources.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\rt.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\jsse.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\jce.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\charsets.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="E:\eclipse-SDK-4.2.2-win32\eclipse" version="1.6.0_15">
+<bootpath>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\resources.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\rt.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\jsse.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\jce.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\charsets.jar"/>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="E:\eclipse-SDK-4.2.2-win32\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Program Files (x86)\Java\jre8" version="1.8.0">
+<bootpath>
+<entry path="C:\Program Files (x86)\Java\jre8\lib\resources.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre8\lib\rt.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre8\lib\sunrsasign.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre8\lib\jsse.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre8\lib\jce.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre8\lib\charsets.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre8\lib\jfr.jar"/>
+<entry path="C:\Program Files (x86)\Java\jre8\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Program Files (x86)\Java\jre8\lib\ext"/>
+<entry path="C:\Windows\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Program Files (x86)\Java\jre8\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

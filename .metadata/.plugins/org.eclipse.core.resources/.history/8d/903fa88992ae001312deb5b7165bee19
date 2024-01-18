@@ -1,0 +1,27 @@
+
+public class nearest {
+
+	public static int k=8;
+	public static int trainingSet[][]=new int[][]{{4,3},{1,3},{3,3},{3,7},{7,4},{4,1},{6,5},{5,6},{3,7},{6,2},
+		{4,6},{4,4},{5,8},{7,8},{5,6},{10,5},{7,6},{4,10},{9,7},{5,4},{8,5},{6,6},{7,4},{8,8}};
+	public static int querySet[][]=new int[][]{{6,5}};
+	public static int distance[]=new int[24];
+	
+
+	public static void main(String []args){
+		int i, d1, d2, d;
+		
+		for(i=0; i<24; i++){
+			d1=((trainingSet[i][0])-(querySet[0][0]))*((trainingSet[i][0])-(querySet[0][0]));
+			d2=((trainingSet[i][1])-(querySet[0][1]))*((trainingSet[i][1])-(querySet[0][1]));
+			
+			d=d1+d2;
+			distance[i]=d;
+			System.out.print(distance[i]);
+			System.out.printf("\n");
+		}
+		
+		/****************SORT***************/
+	}
+	
+	}
